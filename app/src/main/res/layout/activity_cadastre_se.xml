@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+            android:text="TO DO LIST"
+            android:textColor="#282828"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/nunitobold"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/check_all"
+            android:layout_gravity="end|center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="Nome"
+        android:textColor="#282828"
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/nunitoregular"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="15sp"
+        android:hint="Insira seu nome"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/roundstyle_edittext"
+        android:backgroundTint="#CDCDCD"
+        android:id="@+id/txtCADNome"
+        android:fontFamily="@font/nunitoregular"
+        android:layout_marginHorizontal="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="E-mail"
+        android:textColor="#282828"
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/nunitoregular"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="15sp"
+        android:hint="user@email.com"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/roundstyle_edittext"
+        android:backgroundTint="#CDCDCD"
+        android:id="@+id/txtCADEmail"
+        android:fontFamily="@font/nunitoregular"
+        android:layout_marginHorizontal="10dp"
+        android:inputType="textEmailAddress"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="Senha"
+        android:textColor="#282828"
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/nunitoregular"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="15sp"
+        android:hint="Digite sua senha"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/roundstyle_edittext"
+        android:backgroundTint="#CDCDCD"
+        android:id="@+id/txtCADSenha1"
+        android:fontFamily="@font/nunitoregular"
+        android:layout_marginHorizontal="10dp"
+        android:inputType="textPassword"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="Confirmar senha"
+        android:textColor="#282828"
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/nunitoregular"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="15sp"
+        android:hint="Digite sua senha novamente"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/roundstyle_edittext"
+        android:backgroundTint="#CDCDCD"
+        android:id="@+id/txtCADSenha2"
+        android:fontFamily="@font/nunitoregular"
+        android:layout_marginHorizontal="10dp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Entrar com:"
+        android:textColor="#282828"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/nunitobold"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/google"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook"
+            android:layout_marginHorizontal="15dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/twitter"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:text="Cadastrar"
+        android:background="@drawable/roundstyle_button"
+        android:layout_gravity="center"
+        android:id="@+id/btCADGravar"
+        android:fontFamily="@font/nunitobold"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Já tem uma conta? "
+        android:textColor="#282828"
+        android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Entrar"
+            android:textColor="#366EFF"
+            android:fontFamily="@font/nunitomedium"/>
+
+    </LinearLayout>
+</LinearLayout>

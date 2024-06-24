@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="130dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/nunitobold"
+            android:text="TO DO LIST"
+            android:textColor="#282828"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/check_all"
+            android:layout_gravity="end|center"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="E-mail"
+        android:textColor="#282828"
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/nunitoregular"/>
+
+    <EditText
+        android:id="@+id/txtLOGEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/roundstyle_edittext"
+        android:backgroundTint="#CDCDCD"
+        android:ems="10"
+        android:fontFamily="@font/nunitolight"
+        android:hint="user@email.com"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="Senha"
+        android:textColor="#282828"
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/nunitoregular"/>
+
+    <EditText
+        android:id="@+id/txtLOGSenha"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Digite sua senha"
+        android:textSize="15dp"
+        android:inputType="textPassword"
+        android:background="@drawable/roundstyle_edittext"
+        android:paddingHorizontal="20dp"
+        android:backgroundTint="#CDCDCD"
+        android:fontFamily="@font/nunitolight"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="Esqueceu a senha?"
+        android:textColor="#366EFF"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/nunitomedium"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Entrar com:"
+        android:textColor="#282828"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/nunitobold"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/google"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook"
+            android:layout_marginHorizontal="15dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/twitter"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btLOGAcessar"
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:text="Entrar"
+        android:background="@drawable/roundstyle_button"
+        android:layout_gravity="center"
+        android:fontFamily="@font/nunitobold"/>
+
+
+    <Button
+        android:id="@+id/btLOGCadastro"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:text="Cadastre-se"
+        android:background="@drawable/roundstyle_button"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+        android:fontFamily="@font/nunitobold"/>
+
+</LinearLayout>
